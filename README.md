@@ -6,13 +6,13 @@ FIREBASE REALTIME DATABASE:
 	URL: https://adarshassignmentpython.firebaseio.com/
 
 FIREBASE REALTIME DATABASE STRUCTURE:
-&nbsp;&nbsp;&nbsp;&nbsp;/users:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;username: value
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user email: value
-&nbsp;&nbsp;&nbsp;&nbsp;/userInformation:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;username: value
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user email: value
-
+<pre>	/users:
+		username: value
+		user email: value
+	/userInformation:
+		username: value
+		user email: value
+</pre>
 			******NOTE*******
 The given solution is based on the keys of the above database structure.
 By Default one value was passed in both node: users and userInformation.
