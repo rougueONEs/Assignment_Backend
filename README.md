@@ -55,11 +55,11 @@ Now run Python Script main.py on Python IDLE or if you dont have IDLE then:
 
 
 Now open Firebase Project 'adarshassignmentpython'. Insert a new value in '/users' node as:
-	     */users:
-		*user2:
-		    *username : 'Adarsh Agarwal'
-		    *user email : 'kingallies97@gmail.com'
-
+<pre>	     /users:
+		user2:
+		    username : 'Adarsh Agarwal'
+		    user email : 'kingallies97@gmail.com'
+</pre>
 and see the result.
 
 NOTE: This Python Script contains an infinite loop because there is no default httptrigger provided by firebase for Python. Therefore you have to manually terminate the script.
