@@ -6,12 +6,12 @@ FIREBASE REALTIME DATABASE:
 	URL: https://adarshassignmentpython.firebaseio.com/
 
 FIREBASE REALTIME DATABASE STRUCTURE:
-............/users:
-................username: value
-................user email: value
-............/userInformation:
-................username: value
-................user email: value
+            */users:
+		*username: value
+		*user email: value
+	   */userInformation:
+		*username: value
+		*user email: value
 
 			******NOTE*******
 The given solution is based on the keys of the above database structure.
@@ -55,10 +55,10 @@ Now run Python Script main.py on Python IDLE or if you dont have IDLE then:
 
 
 Now open Firebase Project 'adarshassignmentpython'. Insert a new value in '/users' node as:
-............../users:
-.................user2:
-....................username : 'Adarsh Agarwal'
-....................user email : 'kingallies97@gmail.com'
+	     */users:
+		*user2:
+		    *username : 'Adarsh Agarwal'
+		    *user email : 'kingallies97@gmail.com'
 
 and see the result.
 
